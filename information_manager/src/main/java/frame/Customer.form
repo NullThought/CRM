@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="frame.Customer">
+  <grid id="27dc6" binding="customerPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="6" width="840" height="596"/>
+    </constraints>
+    <properties>
+      <background color="-3220759"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f964f" binding="topPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c8ee4" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints border-constraint="North"/>
+            <properties/>
+          </component>
+          <component id="d5099" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d3ef3" binding="leftPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="e6ba0" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="b5e81" class="javax.swing.JLabel" binding="welLabel">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <text value="欢迎用户"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="9892" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="9c416" class="javax.swing.JButton" binding="消费情况Button" default-binding="true">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <text value="消费情况"/>
+                </properties>
+              </component>
+              <component id="a8be6" class="javax.swing.JButton" binding="基本信息Button" default-binding="true">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <text value="基本信息"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="66986" binding="centerPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="136ae" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
