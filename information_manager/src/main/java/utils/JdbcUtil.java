@@ -13,32 +13,12 @@ import java.sql.SQLException;
  * @Date 2020/11/15
  **/
 public class JdbcUtil {
-    private static final String URL = "jdbc:mysql://127.0.0.1:3306/crm_manager?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=GMT%2B8";
+    private static final String URL = "jdbc:mysql://localhost:3306/crm_manager?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=GMT%2B8";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "123456";
     private static Connection connection = null;
     private static JdbcUtil jdbcUtil = null;
 
-
-}
-
-=======
- * @ClassName jdbcUtil
- * @Description TODO
- * @Author admin
- * @Date 2020/12/30
- **/
-public class JdbcUtil {
-    private static final String URL = "jdbc:mysql://localhost:3306/crm_manager?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=GMT%2B8";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "sssyyylll2017";
-    private static Connection connection = null;
-    private static JdbcUtil jdbcUtil = null;
-    /**
-     * 获得JDBCUtil实例
-     *
-     * @return JDBCUtil实例
-     */
     public static JdbcUtil getInitJdbcUtil() {
         if (jdbcUtil == null) {
             //线程加锁
@@ -94,4 +74,4 @@ public class JdbcUtil {
         }
     }
 }
->>>>>>> .merge_file_a21160
+

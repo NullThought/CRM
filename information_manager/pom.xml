@@ -6,28 +6,16 @@
 
     <groupId>org.example</groupId>
     <artifactId>information_manager</artifactId>
-    <version>1.0-SNAPSHOT</version>
-<<<<<<< .merge_file_a07796
-
-
-=======
->>>>>>> .merge_file_a08224
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>6</source>
-                    <target>6</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-<<<<<<< .merge_file_a07796
-
-=======
->>>>>>> .merge_file_a08224
+    <version>1.0-SNAPSHOT</version><build><plugins><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><configuration><source>8</source><target>8</target></configuration></plugin>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+            <source>5</source>
+            <target>5</target>
+        </configuration>
+    </plugin>
+</plugins></build>
     <dependencies>
         <!--mysql驱动-->
         <dependency>
@@ -60,20 +48,5 @@
             <version>3.11.1</version>
         </dependency>
     </dependencies>
-<<<<<<< .merge_file_a07796
 
-    <dependency>
-        <groupId>org.apache.poi</groupId>
-        <artifactId>poi</artifactId>
-        <version>4.0.1</version>
-    </dependency>
-    <dependency>
-        <groupId>org.apache.poi</groupId>
-        <artifactId>poi-ooxml</artifactId>
-        <version>4.0.1</version>
-    </dependency>
-
-
-=======
->>>>>>> .merge_file_a08224
 </project>

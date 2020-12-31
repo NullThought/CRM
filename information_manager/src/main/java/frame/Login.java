@@ -15,7 +15,7 @@ import java.awt.event.*;
 public class Login extends JFrame {
     private JPanel Login_main_center;
     private ImagePanel jp1;
-    private ImagePanel1 jp2=new ImagePanel1();
+    private ImagePanel jp2=new ImagePanel();
     private JPanel Login_main_top;
     private JPanel Login_main_left;
     private JPanel Login_main_right;
@@ -46,6 +46,7 @@ public class Login extends JFrame {
         Login_main_center_panel1_passwordField1.setText("请输入密码");
         Login_main_center_panel1_passwordField1.setForeground(Color.LIGHT_GRAY);
         Login_main_center_panel1_button1.addActionListener(e ->{
+            
              new MainPage();
         });
         Login_main_center_panel1_textField1.addFocusListener(new FocusListener() {
@@ -69,7 +70,7 @@ public class Login extends JFrame {
             public void focusGained(FocusEvent e) {
                 String pswd=new String(Login_main_center_panel1_passwordField1.getPassword()).trim();
                 if(pswd.equals("请输入密码")){
-                    Login_main_center_panel1_passwordField1.setEchoChar('☆');
+                    Login_main_center_panel1_passwordField1.setEchoChar('*');
                     Login_main_center_panel1_passwordField1.setText("");
                     Login_main_center_panel1_passwordField1.setForeground(Color.black);
                 }

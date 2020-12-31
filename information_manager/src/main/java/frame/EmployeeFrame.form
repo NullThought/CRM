@@ -12,10 +12,6 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="d6311" class="javax.swing.JTextField" binding="textField1" default-binding="true">
-            <constraints border-constraint="Center"/>
-            <properties/>
-          </component>
           <component id="affa8" class="javax.swing.JButton" binding="button1" default-binding="true">
             <constraints border-constraint="East"/>
             <properties>

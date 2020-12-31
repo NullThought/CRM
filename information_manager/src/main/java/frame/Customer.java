@@ -19,4 +19,12 @@ public class Customer {
     private JButton 基本信息Button;
     private JButton 消费情况Button;
     private JTable table1;
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Customer");
+        frame.setContentPane(new Customer().customerPanel);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+    }
 }
